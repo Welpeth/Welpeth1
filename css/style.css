@@ -329,6 +329,7 @@ h3.my-profession {
     margin: auto;
     border-radius: 5px;
     height: 400px;
+    width: 360px;
 }
 
 /* About */
@@ -631,5 +632,83 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner .portfolio-img-two {
-    margin-top: 10px;
+    margin-top: 5px;
 } 
+
+/* contact */
+
+.contact-title {
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.contact-sub-title {
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.contact .contact-info-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+
+.contact .contact-info-item .icon {
+    display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa-solid {
+    font-size: 25px;
+    color: var(--skin-color);
+}
+
+.contact .contact-info-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+
+.contact .contact-info-item p {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
+
+/* socials */
+
+.social-buttons {
+    margin-top: -220px;
+    position: flex;
+}
+
+.linkedin-btn {
+    margin-left: -350px;
+    position: flex;
+    font-size: 45px;
+    color: var(--skin-color);
+    transition: transform 0.3s;
+}
+
+.github-btn {
+    margin-left: -100px;
+    transition: transform 0.3s;
+    color: var(--skin-color);
+}
+
+.linkedin-btn i, .github-btn i{
+    font-size: 35px; /* Tamanho do ícone */
+}
+
+.linkedin-btn:hover, .github-btn:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
